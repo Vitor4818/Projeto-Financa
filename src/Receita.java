@@ -8,4 +8,8 @@ public class Receita extends Transacao {
     public void exibirDetalhes() {
         System.out.println("Receita - Data: " + getData() + ", Descrição: " + getDescricao() + ", Valor: " + getValor());
     }
+
+    public String toString() {
+        return "Receita: " + getDescricao() + ", Valor: " + getValor() + ", Data: " + getData();
+    }
 }

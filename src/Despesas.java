@@ -6,6 +6,12 @@ public class Despesas extends Transacao {
         this.categoria = categoria;
     }
 
+
+    public String toString() {
+        return "Despesa: " + getDescricao() + ", Valor: " + getValor() + ", Data: " + getData();
+    }
+
+
     public Categoria getCategoria() {
         return categoria;
     }
