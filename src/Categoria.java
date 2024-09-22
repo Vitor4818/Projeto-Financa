@@ -15,7 +15,6 @@ public class Categoria {
         return valorGasto > limite; // Retorna true se o valorGasto for maior que o limite
     }
 
-
     public double getLimite() {
         return limite;
     }

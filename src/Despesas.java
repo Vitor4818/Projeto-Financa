@@ -1,16 +1,16 @@
 public class Despesas extends Transacao {
-    private String categoria;
+    private Categoria categoria;
 
-    public Despesas(double valor, String data, String descricao, String categoria) {
+    public Despesas(double valor, String data, String descricao, Categoria categoria) {
         super(valor, data, descricao);
         this.categoria = categoria;
     }
 
-    public String getCategoria() {
+    public Categoria getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(String categoria) {
+    public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
 
