@@ -47,10 +47,10 @@ public class Usuario {
         for (Transacao transacao : transacoes){
             if (transacao instanceof Receita){
                 totalReceita = totalReceita + transacao.getValor();
-                System.out.println(transacao);
+                System.out.println(transacao.toString());
             }else {
                 totalDespesas = totalDespesas + transacao.getValor();
-                System.out.println(transacao);
+                System.out.println(transacao.toString());
             }
         }
         System.out.println("Total de despesas: "+totalDespesas);
