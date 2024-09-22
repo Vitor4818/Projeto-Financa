@@ -9,7 +9,6 @@ public abstract class Transacao {
         this.data = data;
         this.descricao = descricao;
     }
-sdfdsf
     public abstract void exibirDetalhes();
 
 
